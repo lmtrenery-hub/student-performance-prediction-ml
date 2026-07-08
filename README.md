@@ -54,4 +54,3 @@ The final project will include:
 This project is designed for a 48-session research program.
 ```text
 48 sessions × 2 hours = 96 total hours
-
