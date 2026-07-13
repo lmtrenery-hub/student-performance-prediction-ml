@@ -13,8 +13,9 @@ The purpose of this checklist is to document the data-quality checks completed b
 
 ### Python Code Used
 ```python
-print("Missing per column:")
-print(df.isna().sum())
+total_missing = df.isna().sum().sum()
+print("Total missing values:", total_missing)
+print("Duplicate rows:", df.duplicated().sum())
 
 ## 4. Data Quality and Cleaning Summary
 
