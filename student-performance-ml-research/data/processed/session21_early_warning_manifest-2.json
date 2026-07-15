@@ -1,0 +1,11 @@
+{
+    "dataset": "Early-Warning",
+    "features_excluded": [
+        "G1",
+        "G2",
+        "G3"
+    ],
+    "total_features": 39,
+    "total_observations": 395,
+    "status": "Validated"
+}

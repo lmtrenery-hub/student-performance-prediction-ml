@@ -1,0 +1,5 @@
+File,Rows,Columns
+X_early.parquet,395,39
+y_early.parquet,395,1
+X_early.csv,395,39
+y_early.csv,395,1
