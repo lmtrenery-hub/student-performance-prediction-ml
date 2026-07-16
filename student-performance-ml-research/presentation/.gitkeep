@@ -1,0 +1,33 @@
+This is the Markdown template for your `reports/leakage_decision.md` file. Replace the bracketed placeholders with the values from your analysis.
+
+---
+
+# Data Leakage Decision: G1 and G2 Inclusion
+
+## Correlation Analysis
+
+Based on the analysis of the dataset, the correlation coefficients between the prior grades and the final grade (G3) are:
+
+* **G1 to G3**: [Insert G1-G3 correlation value]
+* **G2 to G3**: [Insert G2-G3 correlation value]
+
+## Modeling Scenarios
+
+To address potential data leakage, this project will utilize two distinct modeling approaches:
+
+| Scenario | Features Included | Primary Purpose |
+| --- | --- | --- |
+| **Full-Information** | Includes G1, G2 | To achieve maximum predictive accuracy using all available data. |
+| **Early-Warning** | Excludes G1, G2 | To identify at-risk students for early intervention before late-stage grades are finalized. |
+
+## Final Decision
+
+The project will proceed with both scenarios. The **Full-Information Model** provides a performance baseline, while the **Early-Warning Model** provides actionable insights for instructors by excluding features that may introduce temporal data leakage.
+
+*Note: The observed high correlation between G1/G2 and G3 is recognized, but it is acknowledged that this correlation does not imply causation.*
+
+---
+
+Once you have filled in the values, save the file, commit it to Git, and push it to your repository.
+
+Are you ready to move on to the next task in your GSSRP 2026 project?
