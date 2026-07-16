@@ -44,3 +44,13 @@ The dataset is available under the **Creative Commons Attribution 4.0 Internatio
 Cortez, P., & Silva, A. (2008). *Using Data Mining to Predict Secondary School Student Performance*. In A. Brito and J. Teixeira (Eds.), Proceedings of the 5th Future Business Technology Conference, 5–12.
 
 UCI Machine Learning Repository. (n.d.). *Student Performance Dataset*. Retrieved from https://archive.ics.uci.edu/dataset/320/student+performance
+# Dataset Selection Report
+## Research Objective: Predicting Student Performance
+### Variables Selected
+- **Student Demographics:** Age, Family Size, Parental Status.
+- **Academic Factors:** G1 (Period 1 Grade), G2 (Period 2 Grade), Study Time.
+- **Target Variable:** G3 (Final Grade) -> Categorized into Pass/Fail.
+
+### Key Decisions
+- **Handling Leakage:** G2 must be evaluated for leakage before final model training.
+- **Metric Priority:** Recall is prioritized to ensure high-risk students are flagged for intervention.
