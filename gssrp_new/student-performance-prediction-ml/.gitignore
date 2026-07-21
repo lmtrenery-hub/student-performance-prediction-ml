@@ -1,0 +1,31 @@
+﻿# Raw data should not be committed
+data/raw/*
+!data/raw/.gitkeep
+
+# Python cache files
+__pycache__/
+*.pyc
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Environment files
+.env
+.venv/
+venv/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Local environments and generated files
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+*.tmp
+*.temp
+*.bak
+desktop.ini
